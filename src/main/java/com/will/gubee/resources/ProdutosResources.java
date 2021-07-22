@@ -17,7 +17,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.will.gubee.domain.Produtos;
 import com.will.gubee.services.ProdutosServices;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(value = "/produtos")
 public class ProdutosResources {
